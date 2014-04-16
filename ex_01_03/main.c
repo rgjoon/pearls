@@ -34,7 +34,7 @@ int main()
         fclose(fp);
     }
     
-    printf("sorting has been complated.\n");
+    printf("sorting has been completed.\n");
     
     fp = fopen("result.txt", "w+" );
     if( fp )
