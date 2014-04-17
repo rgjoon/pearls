@@ -3,7 +3,7 @@
 
 #define MAX_SIZE 10000000
 
-static int g_room[MAX_SIZE / 32] = {0, };
+static int g_room[MAX_SIZE / 32 + 1] = {0, };
 
 void set(int n)
 {
